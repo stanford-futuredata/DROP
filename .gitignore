@@ -1,0 +1,52 @@
+*.class
+.classpath
+.project
+.settings/*
+*.log
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea/
+target/
+*.iml
+*.sw[op]
+
+dependency-reduced-pom.xml
+
+*~
+cache/*
+sql_cache/*
+
+# Compiled python file
+*.pyc
+
+# Workload directory
+bench/workflows/*
+bench/conf/custom/
+
+bench/contextual/workflows/*
+bench/contextual/conf/custom/
+
+# Plots
+*.pdf
+
+# Results files
+*.out
+
+# Annoying Mac file
+*.DS_Store
+
+# custom configuration
+conf/custom/
+
+# Profiler
+.profiler/
